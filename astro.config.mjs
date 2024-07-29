@@ -34,6 +34,19 @@ export default defineConfig({
                     ]
                 },
                 {
+                    label: 'For Contributors',
+                    items: [
+                        {
+                            label: 'Get started',
+                            link: '/get-started/contributors/get-started',
+                        },
+                        {
+                            label: 'Squads',
+                            link: '/get-started/contributors/squads',
+                        },
+                    ]
+                },
+                {
                     label: 'Community management',
                     items: [
                         {
@@ -47,19 +60,6 @@ export default defineConfig({
                         {
                             label: 'Get involved',
                             link: '/get-started/community-management/get-involved',
-                        },
-                    ]
-                },
-                {
-                    label: 'For Contributors',
-                    items: [
-                        {
-                            label: 'Get started',
-                            link: '/get-started/contributors/get-started',
-                        },
-                        {
-                            label: 'Squads',
-                            link: '/get-started/contributors/squads',
                         },
                     ]
                 },
