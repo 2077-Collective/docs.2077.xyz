@@ -1,0 +1,63 @@
+h1, h2 {
+    font-family: 'Orbitron Variable', sans-serif;
+}
+
+
+/* Dark mode colors. */
+.hero > img {
+    width: 300px;
+    height: 400px;
+}
+
+:root {
+	--sl-color-accent-low: #002c1a;
+	--sl-color-accent: #007e53;
+	--sl-color-accent-high: #a1d7ba;
+	--sl-color-white: #ffffff;
+	--sl-color-gray-1: #eeeeec;
+	--sl-color-gray-2: #c2c2c0;
+	--sl-color-gray-3: #8c8b88;
+	--sl-color-gray-4: #595855;
+	--sl-color-gray-5: #393835;
+	--sl-color-gray-6: #272724;
+	--sl-color-black: #181817;
+}
+/* Light mode colors. */
+:root[data-theme='light'] {
+	--sl-color-accent-low: #bae2cc;
+	--sl-color-accent: #008055;
+	--sl-color-accent-high: #003d26;
+	--sl-color-white: #181817;
+	--sl-color-gray-1: #272724;
+	--sl-color-gray-2: #393835;
+	--sl-color-gray-3: #595855;
+	--sl-color-gray-4: #8c8b88;
+	--sl-color-gray-5: #c2c2c0;
+	--sl-color-gray-6: #eeeeec;
+	--sl-color-gray-7: #f6f6f5;
+	--sl-color-black: #ffffff;
+}
+
+/* Dark mode colors. */
+:root {
+    .hero > img {
+        width: 300px;
+        height: 400px;
+    }
+    --filter-color: none;
+}
+
+/* Light mode colors. */
+:root[data-theme='light'] {
+    .hero > img {
+        width: 300px;
+        height: 400px;
+    }
+    --filter-color: invert(100%) sepia(0%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+}
+
+/* Apply filter to the image */
+.hero > img {
+    filter: var(--filter-color);
+}
+
