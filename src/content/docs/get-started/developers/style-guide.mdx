@@ -1,28 +1,57 @@
 ---
-title: Guidelines
+title: Style Guidelines
 description: About 2077 Collective
 ---
 
-## Style Guide
-
 To maintain consistency in our codebase, we follow these basic style guidelines:
+
+### General:
+
+- Ensure code is well-commented for clarity and maintainability.
+- Use meaningful and descriptive names for variables, functions, and classes.
+- Write unit tests for critical functions and components.
+- Follow the [SOLID principles](https://en.wikipedia.org/wiki/SOLID) for object-oriented design.
+- Review and adhere to [DRY principles](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) (Don't Repeat Yourself).
 
 ### JavaScript:
 
-- Use camelCase for variable names (e.g., userName).
-
+- Use camelCase for variable and function names (e.g., `userName`).
+- Use PascalCase for class names (e.g., `UserClass`).
 - Use consistent indentation (4 spaces).
-
 - Keep lines under 80 characters.
+- Prefer `const` and `let` over `var` for variable declarations.
+- Use strict equality (`===`) and inequality (`!==`) to avoid type coercion issues.
+- Follow the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript).
 
 ### Astro:
 
-Follow the official Astro style guide.
+- Follow the official [Astro style guide](https://docs.astro.build/en/guides/styling/).
+- Ensure all components are self-contained and reusable.
+- Use consistent naming conventions for component files and functions.
 
 ### Python:
 
-- Use snake_case for variable names (e.g., user_name).
-
+- Use snake_case for variable and function names (e.g., `user_name`).
+- Use PascalCase for class names (e.g., `UserClass`).
 - Use consistent indentation (4 spaces).
-
 - Keep lines under 79 characters.
+- Follow the [PEP 8 style guide](https://www.python.org/dev/peps/pep-0008/).
+- Ensure docstrings are provided for all public modules, classes, functions, and methods ([PEP 257](https://www.python.org/dev/peps/pep-0257/)).
+- Utilize type hints to improve code readability and maintainability.
+
+### HTML/CSS:
+
+- Use lowercase letters and hyphens for class names (e.g., `user-name`).
+- Use double quotes for attribute values.
+- Keep HTML and CSS code well-formatted and readable.
+- Follow the [W3C HTML and CSS guidelines](https://www.w3.org/standards/webdesign/htmlcss).
+
+### Git:
+
+- Write clear and concise commit messages.
+- Follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) convention.
+- Regularly pull changes from the main branch to stay up-to-date.
+- Use feature branches for new features and bug fixes.
+- Ensure all tests pass before merging to the main branch.
+
+By adhering to these guidelines, we ensure a clean, consistent, and maintainable codebase across the 2077 Collective projects.
